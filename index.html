@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Validador de IP</title>
+</head>
+<body>
+    <header><h1>Realmente é um IP?</h1></header>
+
+    <script src="js/validateIP.js"></script>
+    <div id="fieldset-container">
+        <fieldset>
+            <legend><h2>Digite aqui o IP:</h2></legend>
+            <div class="ip-input-container">
+                <input type="text" id="input-id" placeholder="XXX.XXX.XXX.XXX">
+            </div>
+            <div id="id-validate-check">
+                <button type="button" id="btn-checar" onclick="validate();">Checar</button><br>
+                <label id="is-valid"></label>
+            </div>
+        </fieldset>
+    </div>
+</body>
+</html>

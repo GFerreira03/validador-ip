@@ -1,0 +1,42 @@
+body{
+    font-family: helvetica;
+    font-weight: 500;
+    background: #242F40;
+    color: white;
+    text-align: center;
+}
+
+#btn-checar{
+    background-color:transparent;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Helvetica;
+	font-size:17px;
+	padding:10px 21px;
+	text-shadow:0px 1px 0px #ffffff;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+#btn-checar:active{
+    background-color: white;
+    color: black;
+}
+#input-id{
+    font-size: medium;
+    padding: 7px;
+    border-radius: 3px;
+    border: 0px;
+}
+
+#fieldset-container{
+    margin-left: 43.5%;
+    width: 250px;
+    height: 180px;
+}
+
+legend{
+    margin: 0 auto;
+}
